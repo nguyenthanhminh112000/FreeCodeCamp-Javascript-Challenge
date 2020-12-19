@@ -265,3 +265,118 @@
 // myList.push(['Chocolate Bar',15]);
 // myList.push(['Chocolate Bar',15]);
 // myList.push(['Chocolate Bar',15]);
+
+// //  Write Reusable JavaScript with Functions
+// function reusableFunction(){
+//     console.log('Hi World');
+// }
+// reusableFunction();
+
+// // Passing Values to Functions with Arguments
+// function functionWithArgs(firstPar,secondPar){
+//     console.log(firstPar+secondPar);
+// }
+// functionWithArgs(1,2);
+
+// Global Scope and Functions
+// // Declare the myGlobal variable below this line
+// var myGlobal;
+// myGlobal=10;
+
+// function fun1(){
+//     // Assign 5 to oopsGlobal Here
+//   oopsGlobal=5;
+//     console.log(oopsGlobal);
+// }
+  
+// // Only change code above this line
+  
+// function fun2(){
+//     var output = "";
+//     if (typeof myGlobal != "undefined") {
+//       output += "myGlobal: " + myGlobal;
+//     }
+//     if (typeof oopsGlobal != "undefined") {
+//       output += " oopsGlobal: " + oopsGlobal;
+//     }
+//     console.log(output);
+// }
+
+
+// //  Local Scope and Functions
+// function myLocalScope() {
+//     // Only change code below this line
+//     console.log('inside myLocalScope', myVar);
+//     var myVar;
+// }
+// myLocalScope();
+// //
+// // Run and check the console
+// // myVar is not defined outside of myLocalScope
+// console.log('outside myLocalScope', myVar);
+
+// //  Global vs. Local Scope in Functions
+// // Setup
+// var outerWear = "T-Shirt";
+
+// function myOutfit() {
+//   // Only change code below this line
+//     var outerWear=`sweater`;
+//   // Only change code above this line
+//   return outerWear;
+// }
+
+// myOutfit();
+
+// // Return a Value from a Function with Return
+
+// function timesFive(par){
+//     return par*5;
+// }
+
+// // Understanding Undefined Value returned from a Function
+// // Setup
+// var sum = 0;
+
+// function addThree() {
+//   sum = sum + 3;
+// }
+
+// // Only change code below this line
+// function addFive(){
+//     sum=sum+5;
+// }
+// // Only change code above this line
+
+// addThree();
+// addFive();
+
+// // Assignment with a Returned Value
+// // Setup
+// var processed = 0;
+
+// function processArg(num) {
+//   return (num + 3) / 5;
+// }
+// processed=processArg(7);
+
+// // Only change code below this line
+
+// //  Stand in Line
+// function nextInLine(arr, item) {
+//     // Only change code below this line
+//     arr.push(item);
+//     return arr.shift();
+//     // Only change code above this line
+    
+  
+// }
+// // Setup
+// var testArr = [1,2,3,4,5];
+  
+// // Display code
+// console.log("Before: " + JSON.stringify(testArr));
+// console.log(nextInLine(testArr, 6));
+// console.log("After: " + JSON.stringify(testArr));
+
+// Understanding Boolean Values
