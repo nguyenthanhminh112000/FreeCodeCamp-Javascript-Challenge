@@ -1,8 +1,4 @@
 //////////// Declare JavaScript Variables
 
+// Note : variable can contain numbers,letters,$,_ but cant start with number and contain space
 var myName;
-var _myName;
-var $myName;
-var $$$$myName;
-var $myName$$=3;
-console.log($myName$$);
