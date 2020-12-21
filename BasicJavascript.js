@@ -1141,10 +1141,18 @@
 //     // Only change code above this line
 //   }
 
-// Generate Random Whole Numbers with JavaScript
-function randomWholeNum() {
+// // Generate Random Whole Numbers with JavaScript
+// function randomWholeNum() {
 
-    // Only change code below this line
+//     // Only change code below this line
   
-    return Math.floor(Math.random()*10);
+//     return Math.floor(Math.random()*10);
+//   }
+
+// Generate Random Whole Numbers within a Range
+
+function randomRange(myMin, myMax) {
+    // Only change code below this line
+    return Math.floor((myMax-myMin+1)*Math.random())+myMin;
+    // Only change code above this line
   }
