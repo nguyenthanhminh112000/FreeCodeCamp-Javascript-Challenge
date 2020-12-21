@@ -1149,10 +1149,66 @@
 //     return Math.floor(Math.random()*10);
 //   }
 
-// Generate Random Whole Numbers within a Range
+// // Generate Random Whole Numbers within a Range
 
-function randomRange(myMin, myMax) {
-    // Only change code below this line
-    return Math.floor((myMax-myMin+1)*Math.random())+myMin;
-    // Only change code above this line
-  }
+// function randomRange(myMin, myMax) {
+//     // Only change code below this line
+//     return Math.floor((myMax-myMin+1)*Math.random())+myMin;
+//     // Only change code above this line
+//   }
+
+// // Use the parseInt Function
+// function convertToInteger(str) {
+//     return parseInt(str);
+// }
+
+// convertToInteger("56");
+
+// // Use the parseInt Function with a Radix
+// function convertToInteger(str) {
+//     return parseInt(str,2);
+// }
+
+// convertToInteger("10011");
+
+// //  Use the Conditional (Ternary) Operator
+// function checkEqual(a, b) {
+//     return a===b?`Equal`:`Not Equal`;
+// }
+
+// checkEqual(1, 2);
+
+// // Use Multiple Conditional (Ternary) Operators
+// function checkSign(num) {
+//     num===0?`zero`
+//     :num>0?`positive`
+//     :'negative';
+// }
+
+// checkSign(10);
+
+// // Use Recursion to Create a Countdown
+// // Only change code below this line
+// function countdown(n){
+//     if(n<1){
+//         return [];
+//     }else{
+//         var arr=countdown(n-1);
+//         arr.unshift(n);
+//         return arr;
+//     }
+// }
+//   // Only change code above this line
+
+// // Use Recursion to Create a Range of Numbers
+// function rangeOfNumbers(startNum, endNum) {
+//     if(startNum===endNum){
+//         var arr=[];
+//         arr.push(endNum);
+//         return arr;
+//     }else{
+//         var arr=rangeOfNumbers(startNum+1,endNum);
+//         arr.unshift(startNum);
+//         return arr;
+//     }
+// };
